@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shotgun - Porider Wiki</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+  <h2>Porider Wiki</h2>
+  <a href="/"><strong>Home</strong></a>
+
+  
+    
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>Classes</strong></a
+    >
+    <div class="dropdown-content open">
+       
+      <a href="/classes/assaultengine.html">Assault Engine</a>
+        
+      <a href="/classes/engineer.html">Engineer</a>
+        
+      <a href="/classes/grenadier.html">Grenadier</a>
+        
+      <a href="/classes/rifle.html">Rifle</a>
+        
+      <a href="/classes/shotgun.html">Shotgun</a>
+       
+    </div>
+  </div>
+     
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>Factions</strong></a
+    >
+    <div class="dropdown-content ">
+       
+      <a href="/factions/blf.html">Bordenese Liberation Front</a>
+        
+      <a href="/factions/oskovia.html">Oskovia</a>
+        
+      <a href="/factions/rostora.html">Rostora</a>
+       
+    </div>
+  </div>
+           
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>Peoples</strong></a
+    >
+    <div class="dropdown-content ">
+       
+      <a href="/peoples/albian.html">Albian</a>
+        
+      <a href="/peoples/bordenese.html">Bordenese</a>
+        
+      <a href="/peoples/lusian.html">Lusian</a>
+        
+      <a href="/peoples/noxuian.html">Noxuian</a>
+        
+      <a href="/peoples/vulmier.html">Vulmier</a>
+       
+    </div>
+  </div>
+        
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>Weapons</strong></a
+    >
+    <div class="dropdown-content ">
+       
+      <a href="/weapons/pistol.html">Pistol</a>
+        
+      <a href="/weapons/shotgun.html">Shotgun</a>
+       
+    </div>
+  </div>
+   
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.dropdown-content').forEach((content) => {
+      if (!content.classList.contains('open')) {
+        content.style.display = 'none' // hide everything except active
+      } else {
+        content.style.display = 'block' // keep the active dropdown open
+      }
+    })
+  })
+
+  function toggleDropdown(el) {
+    const content = el.nextElementSibling
+    if (content.style.display === 'block') {
+      content.style.display = 'none'
+    } else {
+      content.style.display = 'block'
+    }
+  }
+</script>
+
+    <main><div class="main-content">
+  <h1>Shotgun</h1>
+  <div class="infobox">
+    <h3>General Information</h3>
+    <img src="/images/" alt="Rostoran Flag" />
+    <table>
+      <tr>
+        <td>Base price</td>
+        <td>150 points</td>
+      </tr>
+      <tr>
+        <td>Equipment</td>
+        <td>Shotgun<br />Shovel</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Overview</h2>
+    <p>
+      Albians are a race of humanoids in Pordier who are most alike to humans. They have no
+      additional features, and have natural human skin tones and hair colors.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Appearance</h2>
+    <p>In-game, the Rostoran uniform is reddish-grey.</p>
+  </div>
+
+  <div class="section">
+    <h2>Trivia</h2>
+    <ul>
+      <li>
+        Some game contributors and staff members have a unique perk name which reduces the base
+        price by 50 points.
+      </li>
+    </ul>
+  </div>
+</div>
+</main>
+  </body>
+</html>

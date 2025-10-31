@@ -1,0 +1,39 @@
+<div class="sidebar">
+  <h2>Porider Wiki</h2>
+  <a href="/"><strong>Home</strong></a>
+
+  {% assign sections = "classes,factions,maps,mechanics,peoples,structures,weapons" | split: "," %}
+  {% for section in sections %} {% assign collection = site[section] %} {% if collection.size > 0 %}
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>{{ section | capitalize }}</strong></a
+    >
+    <div class="dropdown-content {% if page.url contains section %}open{% endif %}">
+      {% for page in collection %} {% if page.title %}
+      <a href="{{ page.url }}">{{ page.title }}</a>
+      {% endif %} {% endfor %}
+    </div>
+  </div>
+  {% endif %} {% endfor %}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.dropdown-content').forEach((content) => {
+      if (!content.classList.contains('open')) {
+        content.style.display = 'none' // hide everything except active
+      } else {
+        content.style.display = 'block' // keep the active dropdown open
+      }
+    })
+  })
+
+  function toggleDropdown(el) {
+    const content = el.nextElementSibling
+    if (content.style.display === 'block') {
+      content.style.display = 'none'
+    } else {
+      content.style.display = 'block'
+    }
+  }
+</script>
