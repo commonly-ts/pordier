@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    display: flex;
+    background-color: #f4f4f4;
+    color: #111;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 220px;
+    background-color: #fd0000;
+    min-height: 100vh;
+    padding: 20px;
+    position: fixed;
+  }
+
+  .sidebar h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+
+  .sidebar a:hover {
+    background-color: #ff4d4d;
+  }
+
+  /* Main content */
+  .main-content {
+    margin-left: 240px;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+
+  /* Infobox */
+.infobox {
+    float: right;
+    width: 280px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #fd0000;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .infobox img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .infobox img.inline-icon {
+    width: 1.5em;
+    height: 1em;
+    display: inline !important;
+    vertical-align: middle;
+    margin: 0 0.2em;
+    outline: auto;
+    outline-style: solid;
+    outline-width: 0.1em;
+  }
+
+  .infobox h3 {
+    text-align: center;
+    color: #fd0000;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #fd0000;
+    padding-bottom: 5px;
+  }
+
+  .infobox table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .infobox td {
+    padding: 4px 6px;
+    vertical-align: top;
+  }
+
+  .infobox tr:nth-child(even) {
+    background-color: #fff0f0;
+  }
+
+  .infobox td:first-child {
+    font-weight: bold;
+    width: 35%;
+    color: #fd0000;
+  }
+
+  .infobox td:last-child {
+    width: 65%;
+  }
+
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  .section h2 {
+    border-bottom: 2px solid #fd0000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #fd0000;
+  }
+
+  /* Lists */
+  ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+
