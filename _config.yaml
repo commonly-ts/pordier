@@ -1,0 +1,17 @@
+title: Porider Wiki
+theme:
+collections:
+  classes:
+    output: true
+  factions:
+    output: true
+  maps:
+    output: true
+  mechanics:
+    output: true
+  peoples:
+    output: true
+  structures:
+    output: true
+  weapons:
+    output: true

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bordenese Liberation Front - Porider Wiki</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+  <h2>Porider Wiki</h2>
+  <a href="/"><strong>Home</strong></a>
+
+  
+    
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>Classes</strong></a
+    >
+    <div class="dropdown-content ">
+       
+      <a href="/classes/assaultengine.html">Assault Engine</a>
+        
+      <a href="/classes/engineer.html">Engineer</a>
+        
+      <a href="/classes/grenadier.html">Grenadier</a>
+        
+      <a href="/classes/rifle.html">Rifle</a>
+        
+      <a href="/classes/shotgun.html">Shotgun</a>
+       
+    </div>
+  </div>
+     
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>Factions</strong></a
+    >
+    <div class="dropdown-content open">
+       
+      <a href="/factions/blf.html">Bordenese Liberation Front</a>
+        
+      <a href="/factions/oskovia.html">Oskovia</a>
+        
+      <a href="/factions/rostora.html">Rostora</a>
+       
+    </div>
+  </div>
+           
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>Peoples</strong></a
+    >
+    <div class="dropdown-content ">
+       
+      <a href="/peoples/albian.html">Albian</a>
+        
+      <a href="/peoples/bordenese.html">Bordenese</a>
+        
+      <a href="/peoples/lusian.html">Lusian</a>
+        
+      <a href="/peoples/noxuian.html">Noxuian</a>
+        
+      <a href="/peoples/vulmier.html">Vulmier</a>
+       
+    </div>
+  </div>
+        
+  <div class="dropdown">
+    <a class="dropbtn" onclick="toggleDropdown(this)"
+      ><strong>Weapons</strong></a
+    >
+    <div class="dropdown-content ">
+       
+      <a href="/weapons/pistol.html">Pistol</a>
+        
+      <a href="/weapons/shotgun.html">Shotgun</a>
+       
+    </div>
+  </div>
+   
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.dropdown-content').forEach((content) => {
+      if (!content.classList.contains('open')) {
+        content.style.display = 'none' // hide everything except active
+      } else {
+        content.style.display = 'block' // keep the active dropdown open
+      }
+    })
+  })
+
+  function toggleDropdown(el) {
+    const content = el.nextElementSibling
+    if (content.style.display === 'block') {
+      content.style.display = 'none'
+    } else {
+      content.style.display = 'block'
+    }
+  }
+</script>
+
+    <main><div class="main-content">
+  <h1>Bordenese Liberation Front</h1>
+
+  <div class="infobox">
+    <h3>General Information</h3>
+    <img src="/images/BLF_Flag.png" alt="Bordenese Liberation Front Flag" />
+    <table>
+      <tr>
+        <td>Demonym</td>
+        <td>Bordenese</td>
+      </tr>
+      <tr>
+        <td>Flavor Text</td>
+        <td>"To whom we broke our promise."</td>
+      </tr>
+      <tr>
+        <td>Faction Color</td>
+        <td>Purple</td>
+      </tr>
+      <tr>
+        <td>Peoples</td>
+        <td>Bordenese, Albian</td>
+      </tr>
+      <tr>
+        <td>Class List</td>
+        <td>Rifle, Grenadier, Engineer, Shotgun</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Overview</h2>
+    <p>
+      Rostora is a nation in the continent of Pordier. Oskovia boasts a well-equipped army and is in
+      conflict with Rostora and the disputed territory of Borden.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Appearance</h2>
+    <p>In-game, the Rostoran uniform is reddish-grey.</p>
+  </div>
+
+  <div class="section">
+    <h2>Modifiers</h2>
+    <p>On the barren map, the Bordenese Liberation Front has the following modifiers:</p>
+    <table style="border-collapse: collapse">
+      <tr style="padding: 10px 0">
+        <td style="vertical-align: top; padding: 10px">
+          <strong>Rancor</strong>
+        </td>
+        <td>
+          <strong><span style="color: #34aa01">+35%</span></strong>
+          Player cap
+        </td>
+      </tr>
+      <tr style="padding: 10px 0">
+        <td style="vertical-align: top; padding: 10px">
+          <strong>Militia</strong>
+        </td>
+        <td style="vertical-align: top; padding: 10px">
+          <strong><span style="color: #ea574f">-</span></strong>
+          Assault Engine<br />
+          <strong><span style="color: #ea574f">-</span></strong>
+          Barrage Events<br />
+          <strong><span style="color: #ea574f">-</span></strong>
+          Pillbox<br />
+          <strong><span style="color: #ea574f">+10</span></strong>
+          seconds to spawn interval<br />
+        </td>
+      </tr>
+      <tr style="padding: 10px 0">
+        <td style="vertical-align: top; padding: 10px">
+          <strong>Sticks &amp; Stones</strong>
+        </td>
+        <td style="vertical-align: top; padding: 10px">
+          <strong><span style="color: #ea574f">-50%</span></strong>
+          Build rate<br />
+          <strong><span style="color: #ea574f">+33%</span></strong>
+          Shotgun cost<br />
+          <strong><span style="color: #ea574f">-4</span></strong>
+          Grenades for Grenadier<br />
+          <strong><span>40%</span></strong>
+          chance for rifle randomization<br />
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Trivia</h2>
+    <ul>
+      <li>Oskovia used to also fight Rostora in the old Umbral map...</li>
+      <li>Soldiers wear the same helmet models as Rostora...</li>
+    </ul>
+  </div>
+</div>
+</main>
+  </body>
+</html>
