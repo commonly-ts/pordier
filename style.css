@@ -1,134 +1,168 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  body {
-    display: flex;
-    background-color: #f4f4f4;
-    color: #111;
-  }
+body {
+  display: flex;
+  background-color: #f4f4f4;
+  color: #111;
+}
 
-  /* Sidebar */
-  .sidebar {
-    width: 220px;
-    background-color: #fd0000;
-    min-height: 100vh;
-    padding: 20px;
-    position: fixed;
-  }
+/* Sidebar container */
+.sidebar {
+  width: 220px;
+  background-color: #fd0000;
+  min-height: 100vh;
+  padding: 20px;
+  position: fixed;
+  overflow-y: auto;
+}
 
-  .sidebar h2 {
-    color: #fff;
-    margin-bottom: 20px;
-    text-align: center;
-  }
+/* Sidebar heading */
+.sidebar h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  .sidebar a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    margin: 8px 0;
-    padding: 5px 10px;
-    border-radius: 4px;
-  }
+/* Sidebar links and dropdown buttons */
+.sidebar > a,
+.dropbtn {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 2px;
+  background-color: #fd0000;
+  cursor: pointer;
+}
 
-  .sidebar a:hover {
-    background-color: #ff4d4d;
-  }
+/* Hover effect for links and buttons */
+.sidebar > a:hover,
+.dropbtn:hover {
+  background-color: #ff4d4d;
+  cursor: pointer;
+}
 
-  /* Main content */
-  .main-content {
-    margin-left: 240px;
-    padding: 20px;
-    max-width: 900px;
-    background-color: #fff;
-    min-height: 100vh;
-  }
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  max-height: 0; /* hidden initially */
+  overflow: hidden; /* hide overflowing content */
+  background-color: #f4f4f4;
+  margin-left: 10px;
+  border-radius: 4px;
+  transition: max-height 0.3s ease; /* smooth slide animation */
+  cursor: pointer;
+}
 
-  /* Infobox */
+/* Links inside dropdown */
+.dropdown-content a {
+  display: block;
+  color: black;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+/* Infobox */
 .infobox {
-    float: right;
-    width: 280px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    border: 2px solid #fd0000;
-    background-color: #fff;
-    padding: 10px;
-    font-size: 0.9em;
-    line-height: 1.4em;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
+  float: right;
+  width: 280px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #fd0000;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-  .infobox img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-  }
+.infobox img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
 
-  .infobox img.inline-icon {
-    width: 1.5em;
-    height: 1em;
-    display: inline !important;
-    vertical-align: middle;
-    margin: 0 0.2em;
-    outline: auto;
-    outline-style: solid;
-    outline-width: 0.1em;
-  }
+.infobox img.inline-icon {
+  width: 1.5em;
+  height: 1em;
+  display: inline !important;
+  vertical-align: middle;
+  margin: 0 0.2em;
+  outline: auto;
+  outline-style: solid;
+  outline-width: 0.1em;
+}
 
-  .infobox h3 {
-    text-align: center;
-    color: #fd0000;
-    margin-bottom: 10px;
-    font-size: 1.2em;
-    border-bottom: 1px solid #fd0000;
-    padding-bottom: 5px;
-  }
+.infobox h3 {
+  text-align: center;
+  color: #fd0000;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  border-bottom: 1px solid #fd0000;
+  padding-bottom: 5px;
+}
 
-  .infobox table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+.infobox table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-  .infobox td {
-    padding: 4px 6px;
-    vertical-align: top;
-  }
+.infobox td {
+  padding: 4px 6px;
+  vertical-align: top;
+}
 
-  .infobox tr:nth-child(even) {
-    background-color: #fff0f0;
-  }
+.infobox tr:nth-child(even) {
+  background-color: #fff0f0;
+}
 
-  .infobox td:first-child {
-    font-weight: bold;
-    width: 35%;
-    color: #fd0000;
-  }
+.infobox td:first-child {
+  font-weight: bold;
+  width: 35%;
+  color: #fd0000;
+}
 
-  .infobox td:last-child {
-    width: 65%;
-  }
+.infobox td:last-child {
+  width: 65%;
+}
 
+.section {
+  margin-bottom: 30px;
+}
 
-  .section {
-    margin-bottom: 30px;
-  }
+.section h2 {
+  border-bottom: 2px solid #fd0000;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #fd0000;
+}
 
-  .section h2 {
-    border-bottom: 2px solid #fd0000;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-    color: #fd0000;
-  }
-
-  /* Lists */
-  ul {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-
-
+/* Lists */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
