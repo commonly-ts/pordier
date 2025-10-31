@@ -31,11 +31,17 @@ Then open `http://localhost:4000` in your browser.
 
 ## Structure
 `_classes/` - pages for playable classes
+
 `_weapons/` - pages for usable weapons
+
 `_factions/` - pages for in-game teams
+
 `_peoples/` - pages for in-game races
+
 `index.md` - homepage content
+
 `_config.yaml` - Jekyll config
+
 `style.css` - styling
 
 ## Publishing
