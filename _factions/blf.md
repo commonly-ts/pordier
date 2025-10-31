@@ -8,7 +8,7 @@ layout: default
 
   <div class="infobox">
     <h3>General Information</h3>
-    <img src="/images/BLF_Flag.png" alt="Bordenese Liberation Front Flag" />
+    <img src="/images/flags/BLF_Flag.png" alt="Bordenese Liberation Front Flag" />
     <table>
       <tr>
         <td>Demonym</td>

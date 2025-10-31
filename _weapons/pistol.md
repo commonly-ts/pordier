@@ -26,9 +26,9 @@ layout: default
     			<td>
 					<a href="/classes/engineer.html">Engineer</a>
 					<br />
-					<a href="/classes/rifle.html">Rifle (class)</a> <img src="/images/BLF_Flag.png" class="inline-icon" alt="icon"/>
+					<a href="/classes/rifle.html">Rifle (class)</a> <img src="/images/flags/BLF_Flag.png" class="inline-icon" alt="icon"/>
 					<br />
-					<a href="/classes/grenadier.html">Grenadier</a> <img src="/images/BLF_Flag.png" class="inline-icon" alt="icon"/>
+					<a href="/classes/grenadier.html">Grenadier</a> <img src="/images/flags/BLF_Flag.png" class="inline-icon" alt="icon"/>
     			</td>
     		</tr>
     	</table>

@@ -8,7 +8,7 @@ layout: default
 
   <div class="infobox">
     <h3>General Information</h3>
-    <img src="/images/Oskovianflag.webp" alt="Oskovian Flag" />
+    <img src="/images/flags/Oskovianflag.webp" alt="Oskovian Flag" />
     <table>
       <tr>
         <td>Demonym</td>

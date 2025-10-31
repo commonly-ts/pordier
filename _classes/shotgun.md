@@ -7,7 +7,7 @@ layout: default
   <h1>Shotgun</h1>
   <div class="infobox">
     <h3>General Information</h3>
-    <img src="/images/" alt="Rostoran Flag" />
+    <img src="/images/classes/oskovian-shotgun.png" alt="Oskovian Shotgunner" />
     <table>
       <tr>
         <td>Base price</td>
