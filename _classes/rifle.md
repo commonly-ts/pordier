@@ -8,7 +8,7 @@ layout: default
 
   <div class="infobox">
     <h3>General Information</h3>
-    <img src="/images/" alt="Rostoran Flag" />
+    <img src="/images/classes/oskovian-rifle.png" alt="Oskovian Rifleman" />
     <table>
       <tr>
         <td>Base price</td>

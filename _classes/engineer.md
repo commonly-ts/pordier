@@ -7,7 +7,7 @@ layout: default
   <h1>Engineer</h1>
   <div class="infobox">
     <h3>General Information</h3>
-    <img src="/images/" alt="Rostoran Flag" />
+    <img src="/images/classes/oskovian-engineer.png" alt="Oskovian Engineer" />
     <table>
       <tr>
         <td>Base price</td>

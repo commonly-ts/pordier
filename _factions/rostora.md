@@ -8,7 +8,7 @@ layout: default
 
   <div class="infobox">
     <h3>General Information</h3>
-    <img src="/images/Rostora_Flag.webp" alt="Rostoran Flag" />
+    <img src="/images/flags/Rostora_Flag.webp" alt="Rostoran Flag" />
     <table>
       <tr>
         <td>Demonym</td>
