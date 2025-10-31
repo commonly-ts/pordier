@@ -21,6 +21,17 @@ body {
   overflow-y: auto;
 }
 
+/* Sidebar Iconss */
+.sidebar-icons a img {
+  opacity: 0.8;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.sidebar-icons a:hover img {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
 /* Sidebar heading */
 .sidebar h2 {
   color: #fff;
