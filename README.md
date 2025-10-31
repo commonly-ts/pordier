@@ -26,6 +26,7 @@ bundle install
 bundle exec jekyll serve
 ```
 Then open `http://localhost:4000` in your browser.
+
 4. Make your edits by adding or updating makrdown files in the content folders, update layout/templates if needed, and add images in their correlated folder in `images/`.
 5. Preview changes locally before committing and opening a pull request.
 
