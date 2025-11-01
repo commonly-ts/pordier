@@ -24,21 +24,20 @@ layout: default
   <div class="section">
     <h2>Overview</h2>
     <p>
-      Albians are a race of humanoids in Pordier who are most alike to humans. They have no
-      additional features, and have natural human skin tones and hair colors.
+      The Grenadier is an attack class in Pordier at War. It equips the player with the nation's
+      base rifle, a shovel, and a set of six grenades
     </p>
   </div>
 
   <div class="section">
     <h2>Appearance</h2>
-    <p>In-game, the Rostoran uniform is reddish-grey.</p>
+    <p>They have one grenade hanging from their belt.</p>
   </div>
 
   <div class="section">
     <h2>Trivia</h2>
     <ul>
-      <li>Oskovia used to also fight Rostora in the old Umbral map...</li>
-      <li>Soldiers wear the same helmet models as Rostora...</li>
+      <li>The <a href="/_factions/blf.md">BLF</a> gets two grenades instead of six due to the Sticks and Stones modifier</li>
     </ul>
   </div>
 </div>

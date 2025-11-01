@@ -36,8 +36,8 @@ layout: default
   <div class="section">
     <h2>Overview</h2>
     <p>
-      Rostora is a nation in the continent of Pordier. Oskovia boasts a well-equipped army and is in
-      conflict with Rostora and the disputed territory of Borden.
+      Rostora is a nation in the continent of Pordier. Rostora boasts a well-equipped army and is in
+      conflict with Oskovia
     </p>
   </div>
 

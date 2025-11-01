@@ -41,13 +41,14 @@ layout: default
   <div class="section">
     <h2>Overview</h2>
     <p>
-      Albians are a race of humanoids in Pordier who are most alike to humans. They have no
-      additional features, and have natural human skin tones and hair colors.
+      Lusians are a race of elves in Pordier. They share physical
+      traits with <a href="/_peoples/albian.md">Albians</a>, but are easily distinguished by their
+      pointy, elf like ears and green colored hair.
     </p>
   </div>
   <div class="section">
     <h2>Appearance</h2>
-    <p>In-game, the Rostoran uniform is reddish-grey.</p>
+    <p>In-game, they spawn with green colored hair and elf-like ears.</p>
   </div>
   <div class="section">
     <h2>Trivia</h2>
