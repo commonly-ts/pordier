@@ -36,14 +36,15 @@ layout: default
   <div class="section">
     <h2>Overview</h2>
     <p>
-      Rostora is a nation in the continent of Pordier. Oskovia boasts a well-equipped army and is in
-      conflict with Rostora and the disputed territory of Borden.
+      The Bordenese Liberation Front is a faction in Pordier at War. It is a group conformed of Bordenese 
+      civillians and military personnel, being funded by <a href="/_factions/rostora.md">Rostora</a> to fight the
+      <a href="/_factions/oskovia.md">Oskovians</a>
     </p>
   </div>
 
   <div class="section">
     <h2>Appearance</h2>
-    <p>In-game, the Rostoran uniform is reddish-grey.</p>
+    <p>In-game, the BLF can spawn with either farmer/railroad worker-like clothing or a Bordenese army uniform.</p>
   </div>
 
   <div class="section">
@@ -91,12 +92,3 @@ layout: default
       </tr>
     </table>
   </div>
-
-  <div class="section">
-    <h2>Trivia</h2>
-    <ul>
-      <li>Oskovia used to also fight Rostora in the old Umbral map...</li>
-      <li>Soldiers wear the same helmet models as Rostora...</li>
-    </ul>
-  </div>
-</div>

@@ -23,14 +23,9 @@ layout: default
   <div class="section">
     <h2>Overview</h2>
     <p>
-      Albians are a race of humanoids in Pordier who are most alike to humans. They have no
-      additional features, and have natural human skin tones and hair colors.
+      The Shotgun is an attack class in Pordier at War. It equips the player
+      with a base lever action shotgun and a shovel.
     </p>
-  </div>
-
-  <div class="section">
-    <h2>Appearance</h2>
-    <p>In-game, the Rostoran uniform is reddish-grey.</p>
   </div>
 
   <div class="section">

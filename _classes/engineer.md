@@ -23,21 +23,12 @@ layout: default
   <div class="section">
     <h2>Overview</h2>
     <p>
-      Albians are a race of humanoids in Pordier who are most alike to humans. They have no
-      additional features, and have natural human skin tones and hair colors.
+      The Engineer is a support class in Pordier at War. It equips the player with
+      a regular Pistol and a shovel, with the options to build Artillery, Dugouts and Pillboxes
     </p>
   </div>
 
   <div class="section">
     <h2>Appearance</h2>
-    <p>In-game, the Rostoran uniform is reddish-grey.</p>
+    <p>They wear a beige armband with a black 'E' on it. </p>
   </div>
-
-  <div class="section">
-    <h2>Trivia</h2>
-    <ul>
-      <li>Oskovia used to also fight Rostora in the old Umbral map...</li>
-      <li>Soldiers wear the same helmet models as Rostora...</li>
-    </ul>
-  </div>
-</div>

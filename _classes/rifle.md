@@ -24,21 +24,7 @@ layout: default
   <div class="section">
     <h2>Overview</h2>
     <p>
-      Albians are a race of humanoids in Pordier who are most alike to humans. They have no
-      additional features, and have natural human skin tones and hair colors.
+      The Rifle class is the main class of Pordier at War. It equips the player with the base
+      rifle model from their team and one shovel.
     </p>
   </div>
-
-  <div class="section">
-    <h2>Appearance</h2>
-    <p>In-game, the Rostoran uniform is reddish-grey.</p>
-  </div>
-
-  <div class="section">
-    <h2>Trivia</h2>
-    <ul>
-      <li>Oskovia used to also fight Rostora in the old Umbral map...</li>
-      <li>Soldiers wear the same helmet models as Rostora...</li>
-    </ul>
-  </div>
-</div>

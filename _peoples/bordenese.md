@@ -37,13 +37,14 @@ layout: default
   <div class="section">
     <h2>Overview</h2>
     <p>
-      Albians are a race of humanoids in Pordier who are most alike to humans. They have no
-      additional features, and have natural human skin tones and hair colors.
+      The Bordenese are a humanoid race in Pordier. They share physical
+      traits with <a href="/_peoples/albian.md">Albians</a>, but have
+      darker, tanner skin.
     </p>
   </div>
   <div class="section">
     <h2>Appearance</h2>
-    <p>In-game, the Rostoran uniform is reddish-grey.</p>
+    <p>In-game, the Bordenese spawn with tan skin and brown or black hair.</p>
   </div>
   <div class="section">
     <h2>Trivia</h2>
